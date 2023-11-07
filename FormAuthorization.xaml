@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp3.FormAuthorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="FormAuthorization" Height="450" Width="800">
+    <Grid>
+        <Label Content="Авторизация" HorizontalAlignment="Left" FontSize="25" Margin="330,86,0,0" VerticalAlignment="Top"/>
+        <Label Content="Логин" HorizontalAlignment="Left" FontSize="15" Margin="128,150,0,0" VerticalAlignment="Top"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" FontSize="15" Margin="128,202,0,202"/>
+        <TextBox x:Name="TextBoxPassword" HorizontalAlignment="Left" Margin="233,209,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="353" Height="23" />
+        <TextBox x:Name="TextBoxLogin" HorizontalAlignment="Left" Margin="233,157,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="353" Height="23" />
+        <Button Content="Войти" HorizontalAlignment="Left"  Margin="330,365,0,0" VerticalAlignment="Top" Height="40" Width="159" Click="Button_Click"/>
+
+    </Grid>
+</Window>
